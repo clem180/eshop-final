@@ -64,7 +64,7 @@ public class CustomerController {
 		}
 		
 		if(!Focused.isEmpty()) {
-			//if lastname and firstname exists redirection to the home page
+			//if lastName and firstname exists redirection to the home page
 			session.setAttribute("account", Focused.get(0));
 			return "redirect:/";
 		}
